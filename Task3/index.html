@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="main">
+            <div class="input group">
+                <label for="Degree">Degree</label>
+                <input type="text" id="degreeInput" name="Degree" placeholder="Enter The Degree">
+                <div class="button"><button onclick="convertTemperature()">Convert</button></div>
+            </div>
+
+            <div class="input labels">
+                <label for="Calcius">Celsius</label>
+                <input type="text" id="celsiusOutput" name="Celcius" readonly>
+            </div>
+
+            <div class="input labels">
+                <label for="fahrenheit">Fahrenheit</label>
+                <input type="text" id="fahrenheitOutput" name="fahrenheit" readonly>
+            </div>
+
+            <div class="input labels">
+                <label for="Kelvin">Kelvin</label>
+                <input type="text" id="kelvinOutput" name="Kelvin" readonly>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
